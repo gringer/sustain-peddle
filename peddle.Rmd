@@ -1,0 +1,32 @@
+---
+title: "The Sustainability Peddle"
+author: "David Eccles"
+date: "28 Juli 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Problem / Bounty
+
+This project was created to address the problem outlined by Sustainable New Zealand:
+
+> Best tool, visualisation, artwork or story that uses open data to depict/track New Zealand’s progress towards the UN’s Sustainable Development Goals.
+
+The project solution will be presented in the form of a Shiny App which displays the progress towards each goal.
+
+Challenges
+----
+* A requirement of the bounty is that the solution *ONLY* uses data listed on data.govt.nz
+
+* Periodic data / time data will be used, both to provide a consistent user experience, and to make it easier to manage the datasets (i.e. a consistent *developer* experience). This may reduce the ability of the available data to capture a particular goal.
+
+* Multiple datasets may be applicable to a single goal. For the purpose of this GovHack, at most one dataset will be used per goal (and possibly none).
+
+Implementation
+----
+1. The user is presented with a screen containing icons for all 17 goals. 
+1. The user picks one of the goals
+1. A graph is displayed showing how that goal is progressing over time.
