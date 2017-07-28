@@ -36,3 +36,5 @@ Data Source Comments
 * https://catalogue.data.govt.nz/dataset/subnational-ethnic-population-projections
     * "humanised" table format with empty rows and no set format. Can't easily process with a computer
     
+* https://catalogue.data.govt.nz/dataset/household-living-costs-price-indexes/resource/c8486a52-844b-441d-b92f-585dd16dbbfd
+    * needed to convert Q1/Q2/Q3/Q4 to months (i.e. 1;4;7;10)
