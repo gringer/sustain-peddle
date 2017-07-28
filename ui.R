@@ -1,7 +1,7 @@
 library(shiny)
 
-un.df <- read.csv("un-goals.csv");
-un.names <- un.df$Id;
+un.df <- read.csv("un-goals.csv", row.names=1);
+un.names <- rownames(un.df);
 names(un.names) <- un.df$Title;
 
 # Define UI for application that draws a histogram

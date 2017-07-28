@@ -30,3 +30,9 @@ Implementation
 1. The user is presented with a screen containing icons for all 17 goals. 
 1. The user picks one of the goals
 1. A graph is displayed showing how that goal is progressing over time.
+
+Data Source Comments
+----
+* https://catalogue.data.govt.nz/dataset/subnational-ethnic-population-projections
+    * "humanised" table format with empty rows and no set format. Can't easily process with a computer
+    
